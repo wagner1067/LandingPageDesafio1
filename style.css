@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#menusuperior{
+    background-color: #303030;
+    width: 1440px;
+    height: 475px;
+}
