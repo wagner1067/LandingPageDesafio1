@@ -8,3 +8,27 @@
     width: 1440px;
     height: 475px;
 }
+
+#titulo-menusuperior {
+    color: #FFFFFF;
+    margin-left: 62px;
+    padding-top: 206px;
+}
+
+#texto-superior{
+    color: #FFFFFF;
+    margin-left: 62px;
+    margin-top: 10px;
+}
+
+#menuinformativo{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#textoinformativo{
+    color: black;
+    
+}
