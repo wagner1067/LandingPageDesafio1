@@ -5,7 +5,7 @@
 
 #menusuperior{
     background-color: #303030;
-    width: 1440px;
+    width: 1920px;
     height: 475px;
 }
 
@@ -23,6 +23,8 @@
 
 #menuinformativo{
     background-color: #F9F9F9;
+    width: 1920px;
+    height: 229px;
     display: grid;
     grid-auto-flow: column;
     columns: auto;
@@ -30,5 +32,5 @@
 
 #textoinformativo{
     color: black;
-    
+
 }
