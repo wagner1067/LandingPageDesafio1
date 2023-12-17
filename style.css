@@ -1,36 +1,106 @@
-*{
-    margin: 0px;
-    font-family: "inter";
+* {
+  margin: 0px;
+  font-family: "inter";
 }
 
-#menusuperior{
-    background-color: #303030;
-    width: 1920px;
-    height: 475px;
+body {
+  width: 1440px;
+  height: 2116px;
+  background-color: #fff;
+}
+
+/*style do menu superior */
+#menusuperior {
+  background-color: #303030;
+  width: 1440px;
+  height: 475px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
 }
 
 #titulo-menusuperior {
-    color: #FFFFFF;
-    margin-left: 62px;
-    padding-top: 206px;
+  color: #fff;
+  font-feature-settings: "liga" off;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -1 0.5px;
+  padding-left: 62px;
 }
 
-#texto-superior{
-    color: #FFFFFF;
-    margin-left: 62px;
-    margin-top: 10px;
+#descricao-menusuperior {
+  color: #fff;
+  font-feature-settings: "liga" off;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding-left: 62px;
 }
 
-#menuinformativo{
-    background-color: #F9F9F9;
-    width: 1920px;
-    height: 229px;
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
+/* style do menu informativo */
+#menuinformativo {
+  background-color: #f9f9f9;
+  width: 1440px;
+  height: 229px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
 }
 
-#textoinformativo{
-    color: black;
+.descricaoinformativo {
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  padding-left: 171px;
+}
 
+.subdescricao {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding-left: 171px;
+}
+
+/*Seção foto */
+#descricao-foto {
+  display: grid;
+  flex-shrink: 0;
+  flex-direction: column;
+  grid-auto-flow: column;
+}
+
+#descricao-texto {
+  font-size: 2em;
+  padding-left: 40px;
+  
+}
+
+#titulo-descricao {
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+#descricao {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.descricao-foto {
+  width: 510px;
+  height: 605px;
+  flex-shrink: 0;
+  padding: 50px;
 }
