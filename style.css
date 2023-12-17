@@ -5,7 +5,6 @@
 
 body {
   width: 1440px;
-  height: 2116px;
   background-color: #fff;
 }
 
@@ -74,6 +73,7 @@ body {
   flex-shrink: 0;
   flex-direction: column;
   grid-auto-flow: column;
+  align-items: center;
 }
 
 #descricao-texto {
@@ -103,4 +103,77 @@ body {
   height: 605px;
   flex-shrink: 0;
   padding: 50px;
+}
+
+/*Formulario */
+#formulario {
+  background-color:#303030;
+  width: 1440px;
+  height: 638px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#titulo-formulario{
+  color: #fff;
+  font-size: 32px;
+  margin: 10px;
+  padding: 87px;
+}
+
+input {
+  width: 508px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 0px;
+  margin: 40px;
+  padding-left: 30px;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.30);
+  font-family: 'Raleway';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+input:hover{
+  background-color: #161616cc;
+  color: #fff;
+  transform: translateY(-5px);
+  transition-duration: 0.5s;
+}
+
+button {
+  width: 286px;
+  height: 74px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #c07212;
+  color: #fff;
+  font-family: 'Raleway';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+button:hover{
+  background-color: #aa6511c2;
+  color: white;
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition-duration: 0.5s;
 }
