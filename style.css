@@ -142,13 +142,6 @@ input {
   align-items: center;
 }
 
-input:hover {
-  background-color: #161616cc;
-  color: #fff;
-  transform: translateY(-5px);
-  transition-duration: 0.5s;
-}
-
 button {
   width: 286px;
   height: 74px;
